@@ -5,9 +5,5 @@ Credits
 Development Lead
 ----------------
 
-* Derek Stegelman <derek@divisiblebyhero.com>
+* DBH Developers <dev@divisiblebyhero.com>
 
-Contributors
-------------
-
-None yet. Why not be the first?

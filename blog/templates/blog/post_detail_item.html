@@ -1,0 +1,11 @@
+
+        {{ post.published_date }}
+        
+        {{ post.get_author_display }}
+        {% for tag in post.tags.all %}
+            <a href="{% url 'post_list_view' %}?tag={{ tag }}">{{ tag }}</a>
+        {% endfor %}
+
+{{ post.title }}
+
+        {{ post.body|safe }}
